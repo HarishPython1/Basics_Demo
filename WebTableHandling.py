@@ -24,6 +24,10 @@ row_val = driver.find_elements_by_xpath("//*[@id='123']/tbody/tr")
 row_count = len(row_val)
 print("row count ",row_count)
 
+row_val = driver.find_elements_by_xpath("//*[@id='123']/tbody/tr")
+row_count = len(row_val)
+print("row count ",row_count)
+
 
 
 
